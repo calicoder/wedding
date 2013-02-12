@@ -1,0 +1,23 @@
+.entry
+  / image in frame
+  .frame_box.frame_big
+    = image_tag "temp/post_img_1.jpg", :height => "192", :width => "450"
+    %img{:alt => "", }/
+    %span.img_tl
+    %span.img_tr
+    %span.img_bl
+    %span.img_br
+  / / image in frame
+  .text_big
+    %p
+      The ceremony & the party will both be held at
+      %span.text-black The Peninsula Hotel
+      in
+      %span.text-black New York City, NY
+      Please make sure to
+      %a.link-more{:href => "rsvp.html"} RSVP here.
+  .clear
+.social_box
+  %a.social_vimeo{:href => "#"} Vimeo
+  %a.social_twitter{:href => "#"} Twitter
+  %a.social_picasa{:href => "#"} Picasa

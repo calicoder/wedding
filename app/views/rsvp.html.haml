@@ -1,0 +1,231 @@
+<!doctype html>
+/[if lt IE 7 ] <html lang="en" class="no-js ie6">
+/[if IE 7 ] <html lang="en" class="no-js ie7">
+/[if IE 8 ] <html lang="en" class="no-js ie8">
+/[if IE 9 ] <html lang="en" class="no-js ie9">
+/ [if (gt IE 9)|!(IE)]><!
+%html.no-js{:lang => "en"}
+  / <![endif]
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
+    %title Wedding - RSVP
+    %meta{:content => "", :name => "description"}/
+    %meta{:content => "", :name => "keywords"}/
+    %link{:href => "http://fonts.googleapis.com/css?family=Copse|Six+Caps|Source+Sans+Pro:400,700", :rel => "stylesheet"}/
+    / Mobile viewport optimized: h5bp.com/viewport
+    %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+    / favicon.ico and apple-touch-icon.png
+    %link{:href => "favicon.ico", :rel => "shortcut icon"}/
+    %link{:href => "images/apple-touch-icon-57x57-iphone.png", :rel => "apple-touch-icon"}/
+    %link{:href => "images/apple-touch-icon-72x72-ipad.png", :rel => "apple-touch-icon", :sizes => "72x72"}/
+    %link{:href => "images/apple-touch-icon-114x114-iphone4.png", :rel => "apple-touch-icon", :sizes => "114x114"}/
+    %link{:href => "style.css", :rel => "stylesheet"}/
+    %link{:href => "screen.css", :rel => "stylesheet"}/
+    %link{:href => "styles/beige-turqoise.css", :rel => "stylesheet"}/
+    / custom CSS
+    %link{:href => "custom.css", :rel => "stylesheet"}/
+    / main JS libs
+    %script{:src => "js/libs/modernizr-2.5.3.min.js"}
+    %script{:src => "js/libs/respond.min.js"}
+    %script{:src => "js/libs/jquery.min.js"}
+    / scripts
+    %script{:src => "js/jquery.easing.1.3.min.js"}
+    %script{:src => "js/general.js"}
+    / styled select
+    %link{:href => "css/cusel.css", :rel => "stylesheet"}/
+    %script{:src => "js/cusel-min.js"}
+    %script{:src => "js/jScrollPane.min.js"}
+    %script{:src => "js/jquery.mousewheel.min.js"}
+    / custom input
+    %script{:src => "js/jquery.customInput.js"}
+    %script{:src => "js/rsvp.js"}
+  %body{:style => "background:url(/assets/bg/body_image_1.jpg) fixed center top no-repeat"}
+    .body_wrap
+      .main_outer
+        .main_top
+        .main_mid
+          / header
+          .header
+            .head_title
+              %strong We’re Getting Married
+              %p.sub_title
+                SATURDAY, 21
+                %sup st
+                AUGUST 2012
+            .head_names
+              .head_name_left
+                %span.head_name
+                  %strong JAMES
+                  %em WALDORF
+              %span.head_amp
+                %img{:alt => "", :height => "122", :src => "styles/beige-turqoise/head_amp.png", :width => "125"}/
+              .head_name_right
+                %span.head_name
+                  %strong MAYRA
+                  %em CHELSEY
+              %span.ribbon_left
+              %span.ribbon_right
+          / header
+          / topmenu
+          .topmenu_line_top
+          %nav#topmenu
+            %ul.dropdown
+              %li.menu-level-0
+                %a{:href => "index.html"}
+                  %span HOME
+                %ul.submenu-1
+                  %li.menu-level-1
+                    %a{:href => "#"}
+                      %span Theme Colors
+                    %ul.submenu-2
+                      %li.menu-level-2
+                        %a{:href => "../BeigeTurqoise/index.html"}
+                          %span Beige Turqoise
+                      %li.menu-level-2
+                        %a{:href => "../BluePink/index.html"}
+                          %span Blue Pink
+                      %li.menu-level-2
+                        %a{:href => "../GreenRed/index.html"}
+                          %span Green Red
+                      %li.menu-level-2
+                        %a{:href => "../PurpleOrange/index.html"}
+                          %span Purple Orange
+                  %li.menu-level-1
+                    %a{:href => "#"}
+                      %span Pattern 1
+                    %ul.submenu-2
+                      %li.menu-level-2
+                        %a{:href => "index-1-blue.html"}
+                          %span Blue
+                      %li.menu-level-2
+                        %a{:href => "index-1-green.html"}
+                          %span Green
+                      %li.menu-level-2
+                        %a{:href => "index-1-pink.html"}
+                          %span Pink
+                      %li.menu-level-2
+                        %a{:href => "index-1-yellow.html"}
+                          %span Yellow
+                      %li.menu-level-2
+                        %a{:href => "index-1-purple.html"}
+                          %span Purple
+                  %li.menu-level-1
+                    %a{:href => "#"}
+                      %span Pattern 2
+                    %ul.submenu-2
+                      %li.menu-level-2
+                        %a{:href => "index-2-blue.html"}
+                          %span Blue
+                      %li.menu-level-2
+                        %a{:href => "index-2-green.html"}
+                          %span Green
+                      %li.menu-level-2
+                        %a{:href => "index-2-pink.html"}
+                          %span Pink
+                      %li.menu-level-2
+                        %a{:href => "index-2-yellow.html"}
+                          %span Yellow
+                      %li.menu-level-2
+                        %a{:href => "index-2-purple.html"}
+                          %span Purple
+              %li.menu-level-0
+                %a{:href => "ceremony.html"}
+                  %span WEDDING
+                %ul.submenu-1
+                  %li.menu-level-1
+                    %a{:href => "ceremony.html"}
+                      %span Ceremony
+                  %li.menu-level-1
+                    %a{:href => "party.html"}
+                      %span The Party
+                  %li.menu-level-1
+                    %a{:href => "bridesmaids.html"}
+                      %span Bridesmaids
+                  %li.menu-level-1
+                    %a{:href => "groomsmen.html"}
+                      %span Groomsmen
+                  %li.menu-level-1
+                    %a{:href => "our-story.html"}
+                      %span Our Story
+                  %li.menu-level-1
+                    %a{:href => "blog.html"}
+                      %span Wedding Blog
+                  %li.menu-level-1
+                    %a{:href => "contact.html"}
+                      %span Contact
+              %li.menu-level-0
+                %a{:href => "accomodation.html"}
+                  %span ACCOMODATION
+              %li.menu-level-0.current-menu-item
+                %a{:href => "rsvp.html"}
+                  %span RSVP
+              %li.menu-level-0
+                %a{:href => "registry.html"}
+                  %span REGISTRY
+              %li.menu-level-0
+                %a{:href => "gallery.html"}
+                  %span GALLERY
+          .topmenu_line_bot
+          / / topmenu
+          / content
+          .content.post-detail
+            .entry
+              %h1 Presence, not presents! RSVP right here:
+              %p
+                We know weddings can be expensive and most of you will be travelling to here and staying over. To help, we've decided to  have a "
+                %strong> presence not presents
+                " policy.
+              .clear
+            / add comment
+            .add-comment.contact-form
+              .comment-form
+                %form#commentForm{:action => "#", :method => "post"}
+                  .row.field_text.alignleft
+                    %label.label_title
+                      %strong First name:
+                    %input#f_name.inputtext.input_middle.required{:name => "f_name", :type => "text", :value => ""}/
+                  .row.field_text.alignleft.omega
+                    %label.label_title
+                      %strong Last name:
+                    %input#l_name.inputtext.input_middle.required{:name => "l_name", :type => "text", :value => ""}/
+                  .clear
+                  .row.field_text.alignleft
+                    %label.label_title
+                      %strong Email:
+                    %input#email.inputtext.input_middle.required{:name => "email", :type => "text", :value => ""}/
+                  .row.field_text.alignleft.omega
+                    %label.label_title
+                      %strong Phone:
+                    %input#phone.inputtext.input_middle.required{:name => "phone", :type => "text", :value => ""}/
+                  .clear
+                  .row.alignleft.input_styled.inlinelist.omega
+                    .rowRadio
+                      %input#radio_v1{:checked => "", :name => "attending", :type => "radio", :value => "yes"}/
+                      %label{:for => "radio_v1"} YES, I AM ATTENDING
+                    .rowRadio
+                      %input#radio_v2{:name => "attending", :type => "radio", :value => "no"}/
+                      %label{:for => "radio_v2"} NO, I’M NOT ATTENDING
+                  .clear
+                  .row.rowSubmit
+                    %input#send.btn-submit{:name => "btnsubmit", :type => "submit", :value => "RSVP NOW"}/
+            / /add comment
+            .divider_space_thin
+            / bottom box content
+            .bot_box
+              .bot_box_inner
+                %span.box_icon.icon_gift
+                %p
+                  WANT TO CONTRIBUTE TO THE GIFTS?
+                  %a.link-more{:href => "registry.html"} VIEW REGISTRY
+            / / bottom box content
+          / / content
+        .main_bot
+      / / container
+      %footer
+        .container
+          %p.copyright
+            HITCHED - Wedding WordPress theme
+            %span.icon_heart ♥
+            Made with love at
+            %a{:href => "http://themefuse.com/"} THEMEFUSE
