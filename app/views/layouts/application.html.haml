@@ -23,7 +23,7 @@
     = stylesheet_link_tag "application", :media => "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
-  %body{:style => "background:url(/assets/bg/body_image_1.jpg) fixed center top no-repeat"}
+  %body{:style => "background:url(/assets/bg/body_image_1.jpg) fixed center top no-repeat", :class => body_class}
     .body_wrap
       .main_outer
         .main_top
@@ -42,123 +42,46 @@
                   %strong KARINA
                   %em TREGUB
               %span.head_amp
-                = image_tag "beige-turqoise/head_amp.png", :height => "122", :width => "125"
+                = image_tag "head_amp.png", :height => "122", :width => "125"
               .head_name_right
                 %span.head_name
                   %strong ANDY
                   %em SHIN
               %span.ribbon_left
               %span.ribbon_right
-          / header
-          / topmenu
           .topmenu_line_top
           %nav#topmenu
             %ul.dropdown
               %li.menu-level-0
-                %a{:href => "index.html"}
-                  %span HOME
+                = link_to "WEDDING", index_path
+              %li.menu-level-0
+                = link_to "OUR STORY", story_path
                 %ul.submenu-1
                   %li.menu-level-1
-                    %a{:href => "#"}
-                      %span Theme Colors
-                    %ul.submenu-2
-                      %li.menu-level-2
-                        %a{:href => "../BeigeTurqoise/index.html"}
-                          %span Beige Turqoise
-                      %li.menu-level-2
-                        %a{:href => "../BluePink/index.html"}
-                          %span Blue Pink
-                      %li.menu-level-2
-                        %a{:href => "../GreenRed/index.html"}
-                          %span Green Red
-                      %li.menu-level-2
-                        %a{:href => "../PurpleOrange/index.html"}
-                          %span Purple Orange
+                    = link_to "Bridesmaids", bridesmaids_path
                   %li.menu-level-1
-                    %a{:href => "#"}
-                      %span Pattern 1
-                    %ul.submenu-2
-                      %li.menu-level-2
-                        %a{:href => "index-1-blue.html"}
-                          %span Blue
-                      %li.menu-level-2
-                        %a{:href => "index-1-green.html"}
-                          %span Green
-                      %li.menu-level-2
-                        %a{:href => "index-1-pink.html"}
-                          %span Pink
-                      %li.menu-level-2
-                        %a{:href => "index-1-yellow.html"}
-                          %span Yellow
-                      %li.menu-level-2
-                        %a{:href => "index-1-purple.html"}
-                          %span Purple
-                  %li.menu-level-1
-                    %a{:href => "#"}
-                      %span Pattern 2
-                    %ul.submenu-2
-                      %li.menu-level-2
-                        %a{:href => "index-2-blue.html"}
-                          %span Blue
-                      %li.menu-level-2
-                        %a{:href => "index-2-green.html"}
-                          %span Green
-                      %li.menu-level-2
-                        %a{:href => "index-2-pink.html"}
-                          %span Pink
-                      %li.menu-level-2
-                        %a{:href => "index-2-yellow.html"}
-                          %span Yellow
-                      %li.menu-level-2
-                        %a{:href => "index-2-purple.html"}
-                          %span Purple
+                    = link_to "Groomsmen", groomsmen_path
+              -#.current-menu-item
               %li.menu-level-0
-                %a{:href => "ceremony.html"}
-                  %span WEDDING
+                = link_to "GETTING HERE", getting_here_path
                 %ul.submenu-1
                   %li.menu-level-1
-                    %a{:href => "ceremony.html"}
-                      %span Ceremony
+                    = link_to "Hotels", hotels_path
                   %li.menu-level-1
-                    %a{:href => "party.html"}
-                      %span The Party
-                  %li.menu-level-1
-                    %a{:href => "bridesmaids.html"}
-                      %span Bridesmaids
-                  %li.menu-level-1
-                    %a{:href => "groomsmen.html"}
-                      %span Groomsmen
-                  %li.menu-level-1
-                    %a{:href => "our-story.html"}
-                      %span Our Story
-                  %li.menu-level-1
-                    %a{:href => "blog.html"}
-                      %span Wedding Blog
-                  %li.menu-level-1
-                    %a{:href => "contact.html"}
-                      %span Contact
+                    = link_to "New York City", nyc_path
+
               %li.menu-level-0
-                %a{:href => "accomodation.html"}
-                  %span ACCOMODATION
-              %li.menu-level-0.current-menu-item
-                %a{:href => "rsvp.html"}
-                  %span RSVP
+                = link_to "REGISTRY", registry_path
               %li.menu-level-0
-                %a{:href => "registry.html"}
-                  %span REGISTRY
-              %li.menu-level-0
-                %a{:href => "gallery.html"}
-                  %span GALLERY
+                = link_to "GALLERY", gallery_path
           .topmenu_line_bot
           .content.post-detail
             = yield
-
         .main_bot
       %footer
         .container
           %p.copyright
-            HITCHED - Wedding WordPress theme
+            Made with Love
             %span.icon_heart ♥
-            Made with love at
-            %a{:href => "http://themefuse.com/"} THEMEFUSE
+            Karina and Andy
 

@@ -1,0 +1,44 @@
+.entry
+  %h1 Got something to say? Contact us:
+  %p Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.
+  .clear
+/ add comment
+.add-comment.contact-form
+  .comment-form
+    %form#commentForm.ajax_form{:action => "#", :method => "post"}
+      .row.alignleft.field_text
+        %label.label_title
+          %strong Email address:
+        %input#email.inputtext.input_middle.required{:name => "email", :type => "text", :value => ""}/
+      .row.field_text.alignleft.omega
+        %label.label_title
+          %strong Your name:
+        %input#name.inputtext.input_middle.required{:name => "yourname", :type => "text", :value => ""}/
+      .clear
+      .row.field_select.alignleft
+        %label.label_title
+          %strong Subject:
+        %select#contact_subject.select_styled{:name => "contact_subject"}
+          %option{:value => "About Wedding"} About Wedding
+          %option{:value => "Suggestions"} Suggestions
+          %option{:value => "Other Question or Comment"} Other Question or Comment
+      .row.alignleft.input_styled.omega
+        %label.label_title
+        .rowRadio
+          %input#radio_v1{:checked => "", :name => "attending", :type => "radio", :value => "yes"}/
+          %label{:for => "radio_v1"} YES, I AM ATTENDING
+        .rowRadio
+          %input#radio_v2{:name => "attending", :type => "radio", :value => "no"}/
+          %label{:for => "radio_v2"} NO, I’M NOT ATTENDING
+      .clear
+      .row.field_textarea
+        %label.label_title
+          %strong Message:
+        %textarea#message.textarea.textarea_middle.required{:cols => "30", :name => "message", :rows => "10"}
+      .clear
+      .row.alignleft.input_styled.checklist.input_full
+        .rowCheckbox
+          %input#checkbox_1{:checked => "", :name => "newsletter", :type => "checkbox", :value => "1"}/
+          %label{:for => "checkbox_1"} I'd like to receive the newsletter
+      .row.rowSubmit
+        %input#send.btn-submit{:name => "btnsubmit", :type => "submit", :value => "SEND MESSAGE"}/

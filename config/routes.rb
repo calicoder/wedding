@@ -1,5 +1,11 @@
 Wedding::Application.routes.draw do
+
   root :to => 'homes#index'
+
+  Constants::PAGES.each do |page|
+    match page => 'homes#' + page
+  end
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

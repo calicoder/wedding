@@ -10,12 +10,18 @@
   / / image in frame
   .text_big
     %p
-      The ceremony & the party will both be held at
-      %span.text-black The Peninsula Hotel
+      Our ceremony & reception will be held at
+      %br
+      %span.text-black
+        = link_to "The Roosevelt Hotel", getting_here_path
       in
-      %span.text-black New York City, NY
-      Please make sure to
-      %a.link-more{:href => "rsvp.html"} RSVP here.
+      %span.text-black
+        = link_to "New York City, NY", nyc_path
+      %br
+      on September 7th, 2013 at 7:00pm.
+
+
+
   .clear
 .social_box
   %a.social_vimeo{:href => "#"} Vimeo

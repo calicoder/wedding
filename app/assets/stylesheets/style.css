@@ -710,7 +710,8 @@ p.wp-caption-text, .frame_caption {
 	position:relative;
 	list-style:none;
 	margin:0 11px 0 11px;
-	padding:0;}
+	padding:0;
+}
 
 .ie7 .dropdown li {
 	display:block;
@@ -722,6 +723,8 @@ p.wp-caption-text, .frame_caption {
 	height:33px;
 	padding:0;
 	text-decoration:none;}
+
+.
 
 .dropdown li a span {
 	display:block}

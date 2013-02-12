@@ -6,7 +6,7 @@
 .jScrollPaneDrag,
 .jScrollArrowUp,
 .jScrollArrowDown {
-	background: url(../images/selects-1.png) no-repeat;
+	background: url(/assets/selects-1.png) no-repeat;
 }
 .cusel {
 	height: 38px;
