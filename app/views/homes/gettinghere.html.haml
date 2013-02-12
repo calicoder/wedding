@@ -1,0 +1,26 @@
+.entry
+  / image in frame
+  .frame_box.frame_big
+    %img{:alt => "", :height => "192", :src => "/assets/temp/post_img_2.jpg", :width => "450"}/
+    %span.img_tl
+    %span.img_tr
+    %span.img_bl
+    %span.img_br
+  / / image in frame
+  %h1 Getting to the Ceremony
+  .text_center
+    %p
+      The ceremony will be held at St John the Baptist's Church,
+      found at
+      %span.text-black 79 Broadway, Lower Manhattan, New York
+      starting from 12:00 PM on
+      = succeed "." do
+        %a.link-more{:href => "rsvp.html"} August 21st, 2012
+  .clear
+/ bottom box content
+.bot_box
+  .bot_box_inner
+    %a.box_icon.icon_map{"data-rel" => "prettyPhoto", :href => "https://maps.google.com/maps?q=79+Broadway,+Lower+Manhattan,+New+York&hl=en&sll=40.707668,-74.01179&sspn=0.010459,0.026157&t=m&hnear=79+Broadway,+New+York,+10006&z=15&output=embed?iframe=true&width=460&height=345", :target => "_blank"}
+    %p
+      NOT FAMILIAR WITH THE LOCATION?
+      %a.link-more{"data-rel" => "prettyPhoto", :href => "https://maps.google.com/maps?q=79+Broadway,+Lower+Manhattan,+New+York&hl=en&sll=40.707668,-74.01179&sspn=0.010459,0.026157&t=m&hnear=79+Broadway,+New+York,+10006&z=15&output=embed?iframe=true&width=460&height=345", :target => "_blank"} VIEW ON MAP
