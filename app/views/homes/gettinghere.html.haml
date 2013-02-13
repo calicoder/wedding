@@ -1,22 +1,40 @@
 .entry
-  / image in frame
   .frame_box.frame_big
     %img{:alt => "", :height => "192", :src => "/assets/temp/post_img_2.jpg", :width => "450"}/
     %span.img_tl
     %span.img_tr
     %span.img_bl
     %span.img_br
-  / / image in frame
-  %h1 Getting to the Ceremony
+  %h1 Getting to the Ceremony & Reception
   .text_center
     %p
-      The ceremony will be held at St John the Baptist's Church,
-      found at
-      %span.text-black 79 Broadway, Lower Manhattan, New York
-      starting from 12:00 PM on
-      = succeed "." do
-        %a.link-more{:href => "rsvp.html"} August 21st, 2012
+      The ceremony and reception will be held at the Roosevelt Hotel, located at at 129 W. 45th Street, Midtown Manhattan, New York starting from 7:00 PM on September 7, 2013
   .clear
+  .frame_box.frame_big
+    %img{:alt => "", :height => "192", :src => "/assets/temp/post_img_3.jpg", :width => "450"}/
+    %span.img_tl
+    %span.img_tr
+    %span.img_bl
+    %span.img_br
+  %h1 Accomodations in New York
+  .text_center
+    %p
+      Check out our room blocks, bitches.
+      = link_to "Hotels", hotels_path
+  .clear
+  .frame_box.frame_big
+    %img{:alt => "", :height => "192", :src => "/assets/temp/post_img_3.jpg", :width => "450"}/
+    %span.img_tl
+    %span.img_tr
+    %span.img_bl
+    %span.img_br
+  %h1 Enjoying New York City
+  .text_center
+    %p
+      Out of town guests go here.
+      = link_to "New York City", nyc_path
+  .clear
+
 / bottom box content
 .bot_box
   .bot_box_inner
