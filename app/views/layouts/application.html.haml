@@ -23,7 +23,7 @@
     = stylesheet_link_tag "application", :media => "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
-  %body{:style => "background:url(/assets/bg/body_image_1.jpg) fixed center top no-repeat", :class => body_class}
+  %body{:style => "background:url(/assets/bg/flowers.jpg) fixed center top no-repeat", :class => body_class}
     .body_wrap
       .main_outer
         .main_top
@@ -50,31 +50,31 @@
               %span.ribbon_left
               %span.ribbon_right
           .topmenu_line_top
-          %nav#topmenu
-            %ul.dropdown
-              %li.menu-level-0
-                = link_to "WEDDING", index_path
-              %li.menu-level-0
-                = link_to "OUR STORY", story_path
-                %ul.submenu-1
-                  %li.menu-level-1
-                    = link_to "Bridesmaids", bridesmaids_path
-                  %li.menu-level-1
-                    = link_to "Groomsmen", groomsmen_path
-              -#.current-menu-item
-              %li.menu-level-0
-                = link_to "GETTING HERE", gettinghere_path
-                %ul.submenu-1
-                  %li.menu-level-1
-                    = link_to "Hotels", hotels_path
-                  %li.menu-level-1
-                    = link_to "New York City", nyc_path
-
-              %li.menu-level-0
-                = link_to "REGISTRY", registry_path
-              %li.menu-level-0
-                = link_to "GALLERY", gallery_path
-          .topmenu_line_bot
+          -#%nav#topmenu
+          -#  %ul.dropdown
+          -#    %li.menu-level-0
+          -#      = link_to "WEDDING", index_path
+          -#    %li.menu-level-0
+          -#      = link_to "OUR STORY", story_path
+          -#      %ul.submenu-1
+          -#        %li.menu-level-1
+          -#          = link_to "Bridesmaids", bridesmaids_path
+          -#        %li.menu-level-1
+          -#          = link_to "Groomsmen", groomsmen_path
+          -#    -#.current-menu-item
+          -#    %li.menu-level-0
+          -#      = link_to "GETTING HERE", gettinghere_path
+          -#      %ul.submenu-1
+          -#        %li.menu-level-1
+          -#          = link_to "Hotels", hotels_path
+          -#        %li.menu-level-1
+          -#          = link_to "New York City", nyc_path
+          -#
+          -#    %li.menu-level-0
+          -#      = link_to "REGISTRY", registry_path
+          -#    %li.menu-level-0
+          -#      = link_to "GALLERY", gallery_path
+          -#.topmenu_line_bot
           .content.post-detail
             = yield
         .main_bot
