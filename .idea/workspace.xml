@@ -28,15 +28,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="groomsmen.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/homes/groomsmen.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="52" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="hotels.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/homes/hotels.html.haml">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,10 +73,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="82" selection-start="593" selection-end="593" vertical-scroll-proportion="0.41310823">
+            <state line="20" column="47" selection-start="529" selection-end="529" vertical-scroll-proportion="-12.8">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.07751938">
               <folding />
             </state>
           </provider>
@@ -119,7 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/homes/nyc.html.haml" />
         <option value="$PROJECT_DIR$/app/views/homes/directions.html.haml" />
         <option value="$PROJECT_DIR$/app/views/homes/gallery.html.haml" />
         <option value="$PROJECT_DIR$/app/views/homes/registry.html.haml" />
@@ -135,6 +134,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/homes/index.html.haml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -743,11 +743,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/homes/story.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="80" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/homes/gallery.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="232" column="74" selection-start="10160" selection-end="10161" vertical-scroll-proportion="0.0" />
@@ -838,7 +833,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="82" selection-start="593" selection-end="593" vertical-scroll-proportion="0.41310823">
+        <state line="20" column="47" selection-start="529" selection-end="529" vertical-scroll-proportion="-12.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.07751938">
           <folding />
         </state>
       </provider>
