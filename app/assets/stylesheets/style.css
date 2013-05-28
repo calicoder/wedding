@@ -83,7 +83,7 @@ img { max-width:100% !important}
 /*----------------------------------------------*/
 body {
 	font-family: 'Copse', Georgia, Times, serif;
-	color:#8c8c8c;
+	color:#333;
 	font-size:14px;
 	line-height:1.4em;
 	position:relative}
@@ -724,8 +724,6 @@ p.wp-caption-text, .frame_caption {
 	padding:0;
 	text-decoration:none;}
 
-.
-
 .dropdown li a span {
 	display:block}
 
@@ -1189,6 +1187,11 @@ footer .container {
 	
 .entry p {
 	margin:0 0 18px 0}
+
+.entry p.textleft{
+  margin:0 0 18px 0;
+  text-align: left;
+}
 
 .entry a {
 	color:#a960ba}

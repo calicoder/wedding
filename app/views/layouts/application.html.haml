@@ -9,7 +9,7 @@
   %head
     %meta{:charset => "utf-8"}/
     %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
-    %title Wedding - RSVP
+    %title Andy and Karina are getting married
     %meta{:content => "", :name => "description"}/
     %meta{:content => "", :name => "keywords"}/
     %link{:href => "http://fonts.googleapis.com/css?family=Copse|Six+Caps|Source+Sans+Pro:400,700", :rel => "stylesheet"}/
@@ -50,31 +50,35 @@
               %span.ribbon_left
               %span.ribbon_right
           .topmenu_line_top
-          -#%nav#topmenu
-          -#  %ul.dropdown
-          -#    %li.menu-level-0
-          -#      = link_to "WEDDING", index_path
-          -#    %li.menu-level-0
-          -#      = link_to "OUR STORY", story_path
-          -#      %ul.submenu-1
-          -#        %li.menu-level-1
-          -#          = link_to "Bridesmaids", bridesmaids_path
-          -#        %li.menu-level-1
-          -#          = link_to "Groomsmen", groomsmen_path
-          -#    -#.current-menu-item
-          -#    %li.menu-level-0
-          -#      = link_to "GETTING HERE", gettinghere_path
-          -#      %ul.submenu-1
-          -#        %li.menu-level-1
-          -#          = link_to "Hotels", hotels_path
-          -#        %li.menu-level-1
-          -#          = link_to "New York City", nyc_path
-          -#
-          -#    %li.menu-level-0
-          -#      = link_to "REGISTRY", registry_path
-          -#    %li.menu-level-0
-          -#      = link_to "GALLERY", gallery_path
-          -#.topmenu_line_bot
+          %nav#topmenu
+            %ul.dropdown
+              %li.menu-level-0
+                = link_to "HOME", index_path
+
+              %li.menu-level-0
+                = link_to "HOTEL RESERVATIONS", hotels_path
+
+              -#%li.menu-level-0
+              -#  = link_to "OUR STORY", story_path
+              -#  %ul.submenu-1
+              -#    %li.menu-level-1
+              -#      = link_to "Bridesmaids", bridesmaids_path
+              -#    %li.menu-level-1
+              -#      = link_to "Groomsmen", groomsmen_path
+              -#-#.current-menu-item
+              -#%li.menu-level-0
+              -#  = link_to "GETTING HERE", gettinghere_path
+              -#  %ul.submenu-1
+              -#    %li.menu-level-1
+              -#      = link_to "Hotels", hotels_path
+              -#    %li.menu-level-1
+              -#      = link_to "New York City", nyc_path
+              -#
+              -#%li.menu-level-0
+              -#  = link_to "REGISTRY", registry_path
+              -#%li.menu-level-0
+              -#  = link_to "GALLERY", gallery_path
+          .topmenu_line_bot
           .content.post-detail
             = yield
         .main_bot
