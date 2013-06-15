@@ -14,7 +14,7 @@
     <file path="/beige-turqoise.css" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1369443774922" ignored="false" />
     <file path="/a.dummy" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1371269215191" ignored="false" />
     <file path="/hotels.html.haml" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1369773100296" ignored="false" />
-    <file path="/application.html.haml" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1369720288880" ignored="false" />
+    <file path="/application.html.haml" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1371269342215" ignored="false" />
     <file path="/registry.html.haml" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1371269244479" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,19 +35,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="78" selection-start="2317" selection-end="2317" vertical-scroll-proportion="-27.541666">
+            <state line="75" column="38" selection-start="3086" selection-end="3086" vertical-scroll-proportion="0.61130744">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registry.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="registry.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/homes/registry.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="52" selection-start="980" selection-end="980" vertical-scroll-proportion="0.6501767">
+            <state line="14" column="22" selection-start="617" selection-end="617" vertical-scroll-proportion="-13.416667">
               <folding />
             </state>
           </provider>
@@ -148,9 +148,9 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/screen.css" />
         <option value="$PROJECT_DIR$/app/views/homes/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/homes/hotels.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/app/views/homes/registry.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
       </list>
     </option>
   </component>
@@ -837,13 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="78" selection-start="2317" selection-end="2317" vertical-scroll-proportion="-27.541666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/screen.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="68" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
@@ -860,7 +853,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/homes/registry.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="52" selection-start="980" selection-end="980" vertical-scroll-proportion="0.6501767">
+        <state line="14" column="22" selection-start="617" selection-end="617" vertical-scroll-proportion="-13.416667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="38" selection-start="3086" selection-end="3086" vertical-scroll-proportion="0.61130744">
           <folding />
         </state>
       </provider>
