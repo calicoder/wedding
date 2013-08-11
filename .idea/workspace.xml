@@ -62,19 +62,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="132" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.0">
+            <state line="74" column="0" selection-start="2809" selection-end="2809" vertical-scroll-proportion="0.8890943">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="52" selection-start="649" selection-end="649" vertical-scroll-proportion="0.5654762">
+            <state line="19" column="52" selection-start="649" selection-end="649" vertical-scroll-proportion="-11.875">
               <folding>
                 <marker date="1376249128000" expanded="true" signature="289:480" placeholder="%p.text-center" />
                 <marker date="1376249128000" expanded="true" signature="310:480" placeholder="We are so happy that you are sharing our wedding day with us. It means so much to us to have our family and friends loving and supporting us as we begin our amazing journey together." />
@@ -199,8 +199,8 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/homes/index.html.haml" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -978,16 +978,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="132" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="52" selection-start="649" selection-end="649" vertical-scroll-proportion="0.5654762">
+        <state line="19" column="52" selection-start="649" selection-end="649" vertical-scroll-proportion="-11.875">
           <folding>
             <marker date="1376249128000" expanded="true" signature="289:480" placeholder="%p.text-center" />
             <marker date="1376249128000" expanded="true" signature="310:480" placeholder="We are so happy that you are sharing our wedding day with us. It means so much to us to have our family and friends loving and supporting us as we begin our amazing journey together." />
@@ -997,6 +990,13 @@
             <marker date="1376249128000" expanded="true" signature="943:982" placeholder="= link_to &quot;Accommodations&quot;, hotels_path" />
             <marker date="1376249128000" expanded="true" signature="1068:1179" placeholder=", Local Activities, and other info to help you plan your travel arrangements when it comes time to do so. Hopefully some of you will decide to make a vacation out of it! You can never run out of things to do in NYC ☺!" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="0" selection-start="2809" selection-end="2809" vertical-scroll-proportion="0.8890943">
+          <folding />
         </state>
       </provider>
     </entry>

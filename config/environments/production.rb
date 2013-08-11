@@ -69,4 +69,7 @@ Wedding::Application.configure do
     # prepend www if the server name does not contain www or admin or api or events
     r301 /.*/, Proc.new { |path, rack_env| "http://www.#{rack_env['SERVER_NAME']}#{path}" },
          :if => Proc.new { |rack_env| !(rack_env['SERVER_NAME'] =~ /www\./i) }
+
   end
+end
+
