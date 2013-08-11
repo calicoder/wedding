@@ -238,26 +238,3 @@
         .clear
       / / slide
     .clear
-    .tf_pagination
-      .inner
-        %a#gallery1_prev.page_prev{:href => "#"}
-          %span prev
-        #gallery1_pag.gallery_pag
-        %a#gallery1_next.page_next{:href => "#"}
-          %span next
-:javascript
-  jQuery(document).ready(function($) {
-
-  $('#gallery1').carouFredSel({
-    pagination : "#gallery1_pag",
-    prev : "#gallery1_prev",
-    next : "#gallery1_next",
-    auto: false,
-    circular: false,
-      infinite: true,
-    scroll: {
-      fx: 'fade',
-      duration: 300
-      }
-  });
-  });

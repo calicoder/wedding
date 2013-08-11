@@ -11,11 +11,16 @@
     <file path="$APPLICATION_HOME_DIR$/lib/openapi.jar!/standardSchemas/xslt-2_0.xsd" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1369443032780" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/openapi.jar!/standardSchemas/xml.xsd" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1369443032780" ignored="false" />
     <file path="/index.html.haml" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1369773638387" ignored="false" />
-    <file path="/beige-turqoise.css" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1369443774922" ignored="false" />
-    <file path="/a.dummy" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1371269215191" ignored="false" />
+    <file path="/beige-turqoise.css" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1371269650677" ignored="false" />
+    <file path="/a.dummy" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1376243848797" ignored="false" />
     <file path="/hotels.html.haml" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1369773100296" ignored="false" />
     <file path="/application.html.haml" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1371269342215" ignored="false" />
-    <file path="/registry.html.haml" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1371269244479" ignored="false" />
+    <file path="/registry.html.haml" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1371269726941" ignored="false" />
+    <file path="/style.css" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1371269806789" ignored="false" />
+    <file path="$PROJECT_DIR$/log/development.log" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1371271004331" ignored="false" />
+    <file path="/Dummy.txt" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1376248393205" ignored="false" />
+    <file path="$PROJECT_DIR$/../vaunte/config/environments/production.rb" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1376248494645" ignored="false" />
+    <file path="$PROJECT_DIR$/../vaunte/Gemfile" changelist="b9a36294-6ad0-445b-af8a-8270549a75d0" time="1376248502926" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +40,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="38" selection-start="3086" selection-end="3086" vertical-scroll-proportion="0.61130744">
+            <state line="13" column="158" selection-start="537" selection-end="537" vertical-scroll-proportion="-6.8333335">
+              <folding>
+                <marker date="1376248423000" expanded="true" signature="2646:3100" placeholder="%nav#topmenu" />
+                <marker date="1376248423000" expanded="true" signature="2671:3100" placeholder="%ul.dropdown" />
+                <marker date="1376248423000" expanded="true" signature="3090:3100" placeholder="-#%li.menu-level-0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="17" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registry.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/homes/registry.html.haml">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="22" selection-start="617" selection-end="617" vertical-scroll-proportion="-13.416667">
+            <state line="53" column="174" selection-start="2006" selection-end="2006" vertical-scroll-proportion="0.44547135">
               <folding />
             </state>
           </provider>
@@ -56,71 +74,106 @@
       <file leaf-file-name="hotels.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/homes/hotels.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="58" selection-start="2291" selection-end="2291" vertical-scroll-proportion="-28.583334">
+            <state line="15" column="126" selection-start="605" selection-end="605" vertical-scroll-proportion="-9.375">
+              <folding>
+                <marker date="1376247303000" expanded="true" signature="0:605" placeholder=".entry" />
+                <marker date="1376247303000" expanded="true" signature="1120:1166" placeholder="Rooms are available at the Roosevelt Hotel for" />
+                <marker date="1376247303000" expanded="true" signature="2077:2118" placeholder="Rooms are available at the W New York for" />
+                <marker date="1376247303000" expanded="true" signature="3039:3099" placeholder="Rooms are available at the Westin New York Grand Central for" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registry.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/homes/registry.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="109" selection-start="456" selection-end="456" vertical-scroll-proportion="-6.25">
+              <folding>
+                <marker date="1376247052000" expanded="true" signature="227:315" placeholder="If you would like to give us something tangible, you could visit our Bloomingdales registry" />
+                <marker date="1376247052000" expanded="true" signature="316:409" placeholder="or help send us on our honeymoon to the Maldives, Almalfi Coast, Capri, Paris, and Amsterdam." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brunch.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/homes/brunch.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="100" selection-start="720" selection-end="720" vertical-scroll-proportion="-4.75">
+              <folding>
+                <marker date="1376246969000" expanded="true" signature="248:252" placeholder="%h1 The Ceremony and Reception" />
+                <marker date="1376246969000" expanded="true" signature="270:852" placeholder=".text_center" />
+                <marker date="1376246969000" expanded="true" signature="289:300" placeholder="%p" />
+                <marker date="1376246969000" expanded="true" signature="412:582" placeholder=".some-details" />
+                <marker date="1376246969000" expanded="true" signature="434:457" placeholder=".a-line.bold" />
+                <marker date="1376246969000" expanded="true" signature="489:507" placeholder=".a-line" />
+                <marker date="1376246969000" expanded="true" signature="544:582" placeholder=".a-line" />
+                <marker date="1376246969000" expanded="true" signature="562:582" placeholder="Midtown Manhattan, New York 10017" />
+                <marker date="1376246969000" expanded="true" signature="620:641" placeholder="%span.bold" />
+                <marker date="1376246969000" expanded="true" signature="701:720" placeholder="September 7th, 2013" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wedding.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/homes/wedding.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="67" selection-start="82" selection-end="143" vertical-scroll-proportion="-2.5">
+              <folding>
+                <marker date="1376247191000" expanded="true" signature="247:251" placeholder="%h1 Getting to the Ceremony" />
+                <marker date="1376247191000" expanded="true" signature="282:727" placeholder=".text_center" />
+                <marker date="1376247191000" expanded="true" signature="301:727" placeholder="%p" />
+                <marker date="1376247191000" expanded="true" signature="398:485" placeholder="The ceremony will be held at St John the Baptist's Church," />
+                <marker date="1376247191000" expanded="true" signature="512:602" placeholder="%span.text-black 79 Broadway, Lower Manhattan, New York" />
+                <marker date="1376247191000" expanded="true" signature="630:678" placeholder="starting from 12:00 PM on" />
+                <marker date="1376247191000" expanded="true" signature="51:57" placeholder=".entry" />
+                <marker date="1376247191000" expanded="true" signature="146:294" placeholder=".frame_box.frame_big" />
+                <marker date="1376247191000" expanded="true" signature="167:241" placeholder="= image_tag &quot;kanda/before-proposal.png&quot;, :height =&gt; &quot;300&quot;, :width =&gt; &quot;450&quot;" />
+                <marker date="1376247191000" expanded="true" signature="186:205" placeholder="%img{:alt =&gt; &quot;&quot;, }/" />
+                <marker date="1376247191000" expanded="true" signature="205:217" placeholder="%span.img_tl" />
+                <marker date="1376247191000" expanded="true" signature="224:236" placeholder="%span.img_tr" />
+                <marker date="1376247191000" expanded="true" signature="247:251" placeholder="%span.img_bl" />
+                <marker date="1376247191000" expanded="true" signature="282:294" placeholder="%span.img_br" />
+                <marker date="1376247191000" expanded="true" signature="306:1549" placeholder=".content" />
+                <marker date="1376247191000" expanded="true" signature="485:531" placeholder="%h1" />
+                <marker date="1376247191000" expanded="true" signature="502:531" placeholder="He Proposed.....and I Said YES!" />
+                <marker date="1376247191000" expanded="true" signature="624:768" placeholder="%p.text-center" />
+                <marker date="1376247191000" expanded="true" signature="727:768" placeholder="We are so happy that you are sharing our wedding day with us. It means so much to us to have our family and friends loving and supporting us as we begin our amazing journey together." />
+                <marker date="1376247191000" expanded="true" signature="744:1549" placeholder="Our wedding is on Saturday, September 7, 2013 at 7 PM at the Roosevelt Hotel in New York City. Important information about our wedding will be available for you here. For those of you who will be coming in from" />
+                <marker date="1376247191000" expanded="true" signature="758:1549" placeholder="= link_to &quot;Accommodations&quot;, hotels_path" />
+                <marker date="1376247191000" expanded="true" signature="769:1549" placeholder=", Local Activities, and other info to help you plan your travel arrangements when it comes time to do so. Hopefully some of you will decide to make a vacation out of it! You can never run out of things to do in NYC ☺!" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/homes/gallery.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="32" selection-start="342" selection-end="342" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.haml">
+      <file leaf-file-name="cusel-min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/cusel-min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="202" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0">
+            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="screen.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/screen.css">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="68" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beige-turqoise.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/beige-turqoise.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="0" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="527" column="49" selection-start="13448" selection-end="13448" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cusel.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/cusel.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prettyPhoto.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/prettyPhoto.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="12" column="110" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,29 +188,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/cusel.css" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/prettyPhoto.css" />
-        <option value="$PROJECT_DIR$/app/views/homes/bridesmaids.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/homes/getting_here.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/homes/groomsmen.html.haml" />
-        <option value="$PROJECT_DIR$/config/initializers/constants.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/homes_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/homes/gettinghere.html.haml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/beige-turqoise.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/screen.css" />
-        <option value="$PROJECT_DIR$/app/views/homes/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/homes/hotels.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/beige-turqoise.css" />
+        <option value="$PROJECT_DIR$/config/initializers/constants.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/app/views/homes/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/homes/brunch.html.haml" />
         <option value="$PROJECT_DIR$/app/views/homes/registry.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/homes/wedding.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/homes/hotels.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/cusel-min.js" />
+        <option value="$PROJECT_DIR$/app/views/homes/gallery.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2556" />
-    <option name="width" value="2556" />
-    <option name="height" value="1440" />
+    <option name="x" value="4" />
+    <option name="y" value="22" />
+    <option name="width" value="1916" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -185,6 +239,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,6 +288,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,26 +424,8 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wedding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wedding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,30 +447,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bg" />
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../iVaunte" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vaunte" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -679,15 +751,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2556" y="0" width="2556" height="1440" extended-state="0" />
+    <frame x="4" y="22" width="1916" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40790844" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15338646" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15508021" sideWeight="0.59209156" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -763,104 +835,162 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/initializers/constants.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/homes_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="48" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/homes/gettinghere.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="42" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="52" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/wedding/website/HTML/PurpleOrange/index-1-blue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="44" selection-start="2810" selection-end="6001" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/beige-turqoise.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0">
+        <state line="13" column="14" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/cusel.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/prettyPhoto.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="202" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/homes/hotels.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="58" selection-start="2291" selection-end="2291" vertical-scroll-proportion="-28.583334">
+        <state line="10" column="34" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="68" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
+        <state line="132" column="7" selection-start="2499" selection-end="2499" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/prettyPhoto.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="527" column="49" selection-start="13448" selection-end="13448" vertical-scroll-proportion="0.0">
+        <state line="213" column="111" selection-start="4967" selection-end="4967" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/homes/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="116" selection-start="1084" selection-end="1084" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/homes/brunch.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="100" selection-start="720" selection-end="720" vertical-scroll-proportion="-4.75">
+          <folding>
+            <marker date="1376246969000" expanded="true" signature="248:252" placeholder="%h1 The Ceremony and Reception" />
+            <marker date="1376246969000" expanded="true" signature="270:852" placeholder=".text_center" />
+            <marker date="1376246969000" expanded="true" signature="289:300" placeholder="%p" />
+            <marker date="1376246969000" expanded="true" signature="412:582" placeholder=".some-details" />
+            <marker date="1376246969000" expanded="true" signature="434:457" placeholder=".a-line.bold" />
+            <marker date="1376246969000" expanded="true" signature="489:507" placeholder=".a-line" />
+            <marker date="1376246969000" expanded="true" signature="544:582" placeholder=".a-line" />
+            <marker date="1376246969000" expanded="true" signature="562:582" placeholder="Midtown Manhattan, New York 10017" />
+            <marker date="1376246969000" expanded="true" signature="620:641" placeholder="%span.bold" />
+            <marker date="1376246969000" expanded="true" signature="701:720" placeholder="September 7th, 2013" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/homes/registry.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="617" selection-end="617" vertical-scroll-proportion="-13.416667">
+        <state line="10" column="109" selection-start="456" selection-end="456" vertical-scroll-proportion="-6.25">
+          <folding>
+            <marker date="1376247052000" expanded="true" signature="227:315" placeholder="If you would like to give us something tangible, you could visit our Bloomingdales registry" />
+            <marker date="1376247052000" expanded="true" signature="316:409" placeholder="or help send us on our honeymoon to the Maldives, Almalfi Coast, Capri, Paris, and Amsterdam." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/homes/wedding.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="67" selection-start="82" selection-end="143" vertical-scroll-proportion="-2.5">
+          <folding>
+            <marker date="1376247191000" expanded="true" signature="247:251" placeholder="%h1 Getting to the Ceremony" />
+            <marker date="1376247191000" expanded="true" signature="282:727" placeholder=".text_center" />
+            <marker date="1376247191000" expanded="true" signature="301:727" placeholder="%p" />
+            <marker date="1376247191000" expanded="true" signature="398:485" placeholder="The ceremony will be held at St John the Baptist's Church," />
+            <marker date="1376247191000" expanded="true" signature="512:602" placeholder="%span.text-black 79 Broadway, Lower Manhattan, New York" />
+            <marker date="1376247191000" expanded="true" signature="630:678" placeholder="starting from 12:00 PM on" />
+            <marker date="1376247191000" expanded="true" signature="51:57" placeholder=".entry" />
+            <marker date="1376247191000" expanded="true" signature="146:294" placeholder=".frame_box.frame_big" />
+            <marker date="1376247191000" expanded="true" signature="167:241" placeholder="= image_tag &quot;kanda/before-proposal.png&quot;, :height =&gt; &quot;300&quot;, :width =&gt; &quot;450&quot;" />
+            <marker date="1376247191000" expanded="true" signature="186:205" placeholder="%img{:alt =&gt; &quot;&quot;, }/" />
+            <marker date="1376247191000" expanded="true" signature="205:217" placeholder="%span.img_tl" />
+            <marker date="1376247191000" expanded="true" signature="224:236" placeholder="%span.img_tr" />
+            <marker date="1376247191000" expanded="true" signature="247:251" placeholder="%span.img_bl" />
+            <marker date="1376247191000" expanded="true" signature="282:294" placeholder="%span.img_br" />
+            <marker date="1376247191000" expanded="true" signature="306:1549" placeholder=".content" />
+            <marker date="1376247191000" expanded="true" signature="485:531" placeholder="%h1" />
+            <marker date="1376247191000" expanded="true" signature="502:531" placeholder="He Proposed.....and I Said YES!" />
+            <marker date="1376247191000" expanded="true" signature="624:768" placeholder="%p.text-center" />
+            <marker date="1376247191000" expanded="true" signature="727:768" placeholder="We are so happy that you are sharing our wedding day with us. It means so much to us to have our family and friends loving and supporting us as we begin our amazing journey together." />
+            <marker date="1376247191000" expanded="true" signature="744:1549" placeholder="Our wedding is on Saturday, September 7, 2013 at 7 PM at the Roosevelt Hotel in New York City. Important information about our wedding will be available for you here. For those of you who will be coming in from" />
+            <marker date="1376247191000" expanded="true" signature="758:1549" placeholder="= link_to &quot;Accommodations&quot;, hotels_path" />
+            <marker date="1376247191000" expanded="true" signature="769:1549" placeholder=", Local Activities, and other info to help you plan your travel arrangements when it comes time to do so. Hopefully some of you will decide to make a vacation out of it! You can never run out of things to do in NYC ☺!" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/homes/hotels.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="126" selection-start="605" selection-end="605" vertical-scroll-proportion="-9.375">
+          <folding>
+            <marker date="1376247303000" expanded="true" signature="0:605" placeholder=".entry" />
+            <marker date="1376247303000" expanded="true" signature="1120:1166" placeholder="Rooms are available at the Roosevelt Hotel for" />
+            <marker date="1376247303000" expanded="true" signature="2077:2118" placeholder="Rooms are available at the W New York for" />
+            <marker date="1376247303000" expanded="true" signature="3039:3099" placeholder="Rooms are available at the Westin New York Grand Central for" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/homes/gallery.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="342" selection-end="342" vertical-scroll-proportion="-5.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/cusel-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="110" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="38" selection-start="3086" selection-end="3086" vertical-scroll-proportion="0.61130744">
+        <state line="13" column="158" selection-start="537" selection-end="537" vertical-scroll-proportion="-6.8333335">
+          <folding>
+            <marker date="1376248423000" expanded="true" signature="2646:3100" placeholder="%nav#topmenu" />
+            <marker date="1376248423000" expanded="true" signature="2671:3100" placeholder="%ul.dropdown" />
+            <marker date="1376248423000" expanded="true" signature="3090:3100" placeholder="-#%li.menu-level-0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="174" selection-start="2006" selection-end="2006" vertical-scroll-proportion="0.44547135">
           <folding />
         </state>
       </provider>

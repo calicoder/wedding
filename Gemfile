@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.11'
 gem "haml-rails"
 gem "powder"
+gem 'rack-rewrite'
 
 group :production do
   gem 'pg'

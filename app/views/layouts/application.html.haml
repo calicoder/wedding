@@ -22,6 +22,14 @@
     %link{:href => "images/apple-touch-icon-114x114-iphone4.png", :rel => "apple-touch-icon", :sizes => "114x114"}/
     = stylesheet_link_tag "application", :media => "all"
     = javascript_include_tag "application"
+    :javascript
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-43109455-1', 'andyandkarina.com');
+      ga('send', 'pageview');
     = csrf_meta_tags
   %body{:style => "background:url(/assets/bg/cake.jpg) fixed center top no-repeat", :class => body_class}
     .body_wrap
@@ -33,9 +41,9 @@
             .head_title
               %strong We’re Getting Married
               %p.sub_title
-                SATURDAY, 7
+                SATURDAY, SEPTEMBER 7
                 %sup th
-                SEPTEMBER 2013
+                2013
             .head_names
               .head_name_left
                 %span.head_name
@@ -56,28 +64,16 @@
                 = link_to "HOME", index_path
 
               %li.menu-level-0
-                = link_to "WHERE TO STAY", hotels_path
+                = link_to "WEDDING", wedding_path
 
-              -#%li.menu-level-0
-              -#  = link_to "OUR STORY", story_path
-              -#  %ul.submenu-1
-              -#    %li.menu-level-1
-              -#      = link_to "Bridesmaids", bridesmaids_path
-              -#    %li.menu-level-1
-              -#      = link_to "Groomsmen", groomsmen_path
-              -#-#.current-menu-item
-              -#%li.menu-level-0
-              -#  = link_to "GETTING HERE", gettinghere_path
-              -#  %ul.submenu-1
-              -#    %li.menu-level-1
-              -#      = link_to "Hotels", hotels_path
-              -#    %li.menu-level-1
-              -#      = link_to "New York City", nyc_path
-              -#
+              %li.menu-level-0
+                = link_to "HOTELS", hotels_path
+
+              %li.menu-level-0
+                = link_to "BRUNCH", brunch_path
+
               %li.menu-level-0
                 = link_to "OUR REGISTRY", registry_path
-              -#%li.menu-level-0
-              -#  = link_to "GALLERY", gallery_path
           .topmenu_line_bot
           .content.post-detail
             = yield

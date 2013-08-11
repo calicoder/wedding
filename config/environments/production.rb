@@ -64,4 +64,9 @@ Wedding::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
-end
+
+  config.middleware.insert_before(Rack::Lock, Rack::Rewrite) do
+    # prepend www if the server name does not contain www or admin or api or events
+    r301 /.*/, Proc.new { |path, rack_env| "http://www.#{rack_env['SERVER_NAME']}#{path}" },
+         :if => Proc.new { |rack_env| !(rack_env['SERVER_NAME'] =~ /www\./i) }
+  end

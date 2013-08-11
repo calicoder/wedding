@@ -40,14 +40,16 @@ a, a:visited,
 .post-author .author,
 .comment-author,
 .comment-date {
-	color:#49cda7;} 
+	color:#49cda7;}
+
+
 
 .icon_map {
 	background-image:url(beige-turqoise/icons/icon_map.png)}
 .icon_gift {
 	background-image:url(beige-turqoise/icons/icon_gift.png)}
 .icon_rsvp {
-	background-image:url(beige-turqoise/icons/icon_rsvp.png)}
+  background-image:url(beige-turqoise/icons/icon_rsvp.png)}
 
 .link-reply {
 	color:#f0987e;}

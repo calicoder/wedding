@@ -221,6 +221,10 @@ h1 span, h2 span, h3 span ,h4 span, h5 span, h6 span {
 .post-detail .col h5,
 .post-detail .col h6 {
 	margin:15px 0 10px 0}
+
+.bold {
+  font-weight:bold;
+}
 	
 em { font-style: italic; }
 strong { font-weight: bold; }
@@ -1098,12 +1102,18 @@ footer .container {
 	float:right;
 	margin:5px 14px 0 30px}
 
+.move-right {
+  margin-left: 67px;
+}
+
 .icon_map {
 	background:url(/assets/icons/icon_map.png) no-repeat}
 .icon_gift {
 	background:url(/assets/icons/icon_gift.png) no-repeat}
 .icon_rsvp {
-	background:url(/assets/icons/icon_rsvp.png) no-repeat}
+
+  margin-left: 81px;
+background:url(/assets/icons/icon_rsvp.png) no-repeat}
 
 .hotels_list {
 	background:url(/assets/divider_line.png) top repeat-x;}

@@ -1,0 +1,48 @@
+.content.post-detail
+  .entry
+    / image in frame
+    .frame_box.frame_big
+      = image_tag "kanda/130.jpg", :height => "300", :width => "450"
+      %span.img_tl
+      %span.img_tr
+      %span.img_bl
+      %span.img_br
+    / / image in frame
+    %h1 Sunday Brunch
+    .text_center
+      %p
+        We would like to thank you for celebrating our special day with us by hosting a Sunday Brunch for you at:
+      .some-details
+        .a-line.bold
+          Bocca di Bacco, Chelsea
+        .a-line
+          169 9th Avenue @ 20th Street
+        .a-line
+          Manhattan, New York 10011
+
+      %br
+        from
+        %span.bold
+          Noon to 4pm
+        on
+        %span.bold
+          Sunday, September 8th, 2013
+      %br
+      %p
+        *If you are flying out directly after brunch, there will be storage at the restaurant for your luggage.
+
+    .clear
+
+
+
+  .bot_box
+    .bot_box_inner
+      %div{:style => "width:400px;height:350px;margin-left:50px;margin-bottom:30px;margin-top:10px"}
+        %iframe{:frameborder => "0", :height => "350", :marginheight => "0", :marginwidth => "0", :scrolling => "no", :src => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=169%2B9th%2BAvenue%2BNew%2BYork(Bocca+di+Bacco%2C+Chelsea)&ie=UTF8&z=14&t=m&iwloc=addr&output=embed", :width => "400"}
+        %br/
+        %table{:border => "0", :cellpadding => "0", :cellspacing => "0", :width => "400"}
+          %tr
+            %td{:align => "right"}
+              %small
+                %a{:href => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=169%2B9th%2BAvenue%2BNew%2BYork(Bocca+di+Bacco%2C+Chelsea)&ie=UTF8&z=14&t=m&iwloc=addr", :target => "_blank"} View Larger Map
+
