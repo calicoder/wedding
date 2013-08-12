@@ -225,7 +225,7 @@ h1 span, h2 span, h3 span ,h4 span, h5 span, h6 span {
 .bold {
   font-weight:bold;
 }
-	
+
 em { font-style: italic; }
 strong { font-weight: bold; }
 small { font-size: 85%; }
